@@ -1,18 +1,15 @@
 #! /bin/bash
 
 # apt source -> tsinghua
-cp /etc/apt/sources.list /etc/apt/sources.list.bak
-rm /etc/apt/sources.list
-cp sources.list /etc/apt/sources.list
-apt update
-apt upgrade -y
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+sudo cp sources.list /etc/apt/sources.list
+sudo apt update
+sudo apt upgrade -y
 
 # sth u always need
-apt install wget curl git g++ openssh-server htop -y
-
-bash install_tmux.sh
+sudo apt install wget curl git g++ openssh-server htop tmux -y
 
 bash install_conda.sh
 
-
+# bash install_tmux.sh
 

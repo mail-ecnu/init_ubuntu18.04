@@ -14,4 +14,4 @@ cp .condarc ~/
 ~/miniconda/bin/pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
 
-#~/miniconda/bin/pip install torch torchvision
+#~/miniconda/bin/conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch
