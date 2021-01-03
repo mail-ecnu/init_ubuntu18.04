@@ -11,5 +11,6 @@ sudo apt install wget curl git g++ openssh-server htop tmux -y
 
 bash install_conda.sh
 
+# bash install_zsh.sh
 # bash install_tmux.sh
 
