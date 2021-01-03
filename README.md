@@ -4,13 +4,19 @@
 MAIL-ECNU 服务器container 装机脚本
 
 ```
-$ sudo ./main.sh
+$ ./main.sh # 不要用sudo，会烂掉
 ```
 
+## 可选的
 
-不包含nvidia驱动
+main中最后两行注释了zsh和tmux，建议手动(如果你需要)，zsh暂时需要交互
+```
+$ ./install_zsh
+$ ./install_tmux
+```
+默认集成oh-my-zsh和oh-my-tmux(默认改成国内源)
 
-cuda待商议
+不包含nvidia驱动, cuda待商议
 
 如果想要测试给ubuntu Desktop食用请确保你明白每一条命令是在干什么
 
