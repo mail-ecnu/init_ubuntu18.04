@@ -24,3 +24,4 @@ $ ./install_tmux
 
 - [opencv](https://github.com/ygowill/linux)
 - [16.04的，可能要魔改一下](https://blog.csdn.net/hanlin_tan/article/details/77540128)
+- @gaoshang brewlinux，可能要反复卸载安装来验证其“一键”, `install_brew.sh`
